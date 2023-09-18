@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Signika:wght@500&display=swap');
+
+@media screen and (max-width: 768px) and (min-width: 300px){
+    .respomhfhfh{
+        height: 165vh;
+    }
+}
+
+
+*{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    margin: 0px 0px;
+    padding: 0px 0px;
+ 
+}
+header div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+nav div li{
+    list-style: none;
+    padding: 0px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 14px;
+    
+}
+nav div li a{
+    text-decoration: none;
+    color: black;
+
+}
+nav div li a:hover{
+    
+    color: green;
+
+}
+
+
+
+/* header div{
+top: 10px;
+
+} */
+header div  ul{
+    /* margin-top: 10px; */
+    height: 70px;
+}
+.socialIcon{
+    height: 20px;
+    padding: 0px 7px;
+}
+.bannerimg{
+    background: url(./peakpx.jpg) ;
+    height: 600px;
+    background: url(./peakpx.jpg);
+    background-position-x: center;
+    height: 575px;
+}
+/* .button { */
+    /* background-color: #4CAF50; Green
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer; */
+  /* } */
+
+  .button {
+    width: 20%;;
+    transition: all .5s ease;
+    color: white;
+    border: 3px solid white;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+.button:hover {
+    color: #001F3F;
+    background-color: #fff;
+}
+
+
+
+
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+  .buttona {
+    width: 23%;;
+    transition: all .5s ease;
+    color: #068399;
+    border: 2px solid rgb(24, 113, 143);
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+
+}
+
+.buttona:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+    a:hover{
+        color:inherit;
+    }
+    .buttonshadow {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+      }
+      .buttonshadow2:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+
+      .testimonialbg{
+        background: url(./wallpaperflare.com_wallpaper\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        
+      }
+      .cardTestimonials {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        background-color: transparent;
+        color: white;
+        border-radius:10px;
+        padding: 10px 10px;
+      }
+      
+      /* On mouse-over, add a deeper shadow */
+      .cardTestimonials:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        background-color: white;
+        color: black;
+        
+      }
+      
+      /* Add some padding inside the card container */
+      .container {
+        padding: 2px 16px;
+      }
