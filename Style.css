@@ -14,15 +14,15 @@
     font-style: normal;
     text-decoration: none;
     margin: 0px 0px;
-    padding: 0px 0px;
+    padding: 0 0;
  
 }
-header div div{
+/* header div div{
     display: flex;
     justify-content: center;
     align-items: center;
 
-}
+} */
 nav{
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
@@ -92,7 +92,7 @@ header div  ul{
   /* } */
 
   .button {
-    width: 20%;;
+    width: auto;;
     transition: all .5s ease;
     color: white;
     border: 3px solid white;
@@ -126,7 +126,7 @@ header div  ul{
   }
 
   .buttona {
-    width: 23%;;
+    width: auto;;
     transition: all .5s ease;
     color: #068399;
     border: 2px solid rgb(24, 113, 143);
@@ -312,7 +312,7 @@ body {
   overflow: hidden;
 
   font-weight: bold;
-  font-size: 30px;
+  font-size: 28px;
   color: black;
 
   z-index: 2;
@@ -405,6 +405,10 @@ body {
 .IconImges{
   height: 50px;
 }
+.WhychooseUsCards{
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
 
 .WhychooseUsCards:hover{
   background-color: rgba(0,0,0,0.5) !important;
@@ -414,4 +418,39 @@ body {
 .contactIcons{
 height: 30px;
 
+}
+
+  .footerLinks{
+    text-decoration: none; color: white;
+  }
+.footerLinks:hover{
+  color: rgb(108 110 142);
+
+}
+
+@media only screen and (max-width:769px )  {
+  .NavDivs{
+    display: flex;
+    justify-content: center;
+
+  }
+  
+}
+/* 
+@media only screen and  (max-width:991px ) {
+  .NavDivs{
+    display: flex;
+    justify-content: center;
+
+  }
+  
+}
+
+ */
+ .footerbannerimg{
+  background: url(./portrait-woman-customer-service-worker.jpg);
+    background-position-x: 61px;
+    background-size: 1781px;
+    background-position-y: -20px;
+    background-repeat: no-repeat;
 }
