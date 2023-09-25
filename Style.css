@@ -59,11 +59,18 @@ header div  ul{
 }
 
 .banerHover{
-  transition: all 0.3s linear;
+ width: 500px;
+ transition: all 0.3s linear;
+
 }
 
+
 .banerHover:hover{
+
     background: rgba(0,0,0,0.5); 
+    width: 700px;
+    box-shadow: 12px 12px 2px 1px rgba(249, 251, 252, 0.2);
+    /* border: 1px solid white; */
 }
 .socialIcon{
     height: 20px;
@@ -420,18 +427,22 @@ height: 30px;
 
 }
 
-  .footerLinks{
+.footerLinks{
     text-decoration: none; color: white;
+    
   }
 .footerLinks:hover{
   color: rgb(108 110 142);
 
 }
+.footerLst {
+  list-style: none;
+}
 
 @media only screen and (max-width:769px )  {
   .NavDivs{
     display: flex;
-    justify-content: center;
+    justify-content: center !important; 
 
   }
   
@@ -453,4 +464,22 @@ height: 30px;
     background-size: 1781px;
     background-position-y: -20px;
     background-repeat: no-repeat;
+}
+
+
+.NavBookBtn:hover{
+  border-bottom: 2px solid blueviolet;
+  background-color: white !important;
+
+
+}
+.NavBookBtnText:hover{
+  color: black;
+}
+.servicesRowww{
+  width: 1300px;
+   transition: all 0.3s linear;
+}
+.servicesRowww:hover{
+  width: 1400px;
 }
