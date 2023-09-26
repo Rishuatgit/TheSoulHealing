@@ -483,3 +483,18 @@ height: 30px;
 .servicesRowww:hover{
   width: 1400px;
 }
+.viewmorebtn:hover{
+  background-color: #001F3F;
+  color: white;
+
+}
+.viewmorebtn{
+  color: black ;
+}
+
+.videogallerybg{
+  background: url(./medical-science-healthcare-blue-banner/23667.jpg);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  
+}
