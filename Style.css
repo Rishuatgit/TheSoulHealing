@@ -61,17 +61,21 @@ header div  ul{
 .banerHover{
  width: 500px;
  transition: all 0.3s linear;
+ 
+ background: rgba(0,0,0,0.5); 
+ width: 570px;
+ box-shadow: 12px 12px 2px 1px rgba(249, 251, 252, 0.2);
 
 }
 
 
-.banerHover:hover{
+/* .banerHover:hover{
 
     background: rgba(0,0,0,0.5); 
-    width: 700px;
+    width: 570px;
     box-shadow: 12px 12px 2px 1px rgba(249, 251, 252, 0.2);
-    /* border: 1px solid white; */
-}
+    border: 1px solid white;
+} */
 .socialIcon{
     height: 20px;
     padding: 0px 7px;
